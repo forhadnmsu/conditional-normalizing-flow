@@ -1,7 +1,7 @@
 # Conditional Normalizing Flow for Simulation-to-Data Morphing
 
 ## Overview
-This project implements a **Conditional Normalizing Flow (CNF)** to transform simulated Monte Carlo (MC) data into distributions that match experimental data. The model uses **affine coupling** and **permutation transforms** to learn the mapping between the source (MC) and target (experimental) distributions.
+This project implements a **Conditional Normalizing Flow (CNF)** to transform simulated Monte Carlo (MC) data into distributions that match experimental data. The model uses **affine coupling** and **permutation transforms** to learn the mapping between the source (MC) and target (experimental) distributions. A good set of hyperparameters was obtained using Optuna, and it was then used in CNF.ipynb.
 
 ## Key Features
 - **Conditional Normalizing Flows**: Leverages the power of normalizing flows with conditional information to model complex distributions.
@@ -21,3 +21,5 @@ The following Python libraries are used in this project:
 - **matplotlib**: 3.9.4
 - **tqdm**: 4.67.1
 - **scikit-learn**: 1.6.1
+- **optuna**: 4.2.1
+
