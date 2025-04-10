@@ -9,6 +9,9 @@ This project implements a **Conditional Normalizing Flow (CNF)** to transform si
 - **Permutation Layers**: Helps to better capture dependencies between features by reordering them during the flow.
 - **Simulation-to-Data Mapping**: Transforms MC-generated data to match real-world experimental data.
 
+### Data Location in Rivanna
+- `/ptgroup/Forhad/CNF_DATA`
+
 ### Python Libraries and Versions
 
 The following Python libraries are used in this project:
